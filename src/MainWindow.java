@@ -5,10 +5,10 @@ public class MainWindow extends JFrame {
     public MainWindow() {
         setTitle("Snake");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(320, 365);
+        setSize(320, 345);
         setLocation(400, 400);
-        Menu menu = new Menu();
-        setJMenuBar(menu.getjMenuBar());
+//        Menu menu = new Menu();
+//        setJMenuBar(menu.getjMenuBar());
         add(new GameField());
         setVisible(true);
 
