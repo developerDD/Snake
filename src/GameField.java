@@ -24,7 +24,7 @@ public class GameField extends JPanel implements ActionListener {
 
 
     public GameField() {
-        setBackground(Color.black);
+        setBackground(Color.CYAN);
         loadImages();
         initGame();
     }
