@@ -18,7 +18,7 @@ public class Menu extends JFrame implements ActionListener {
         jMenu.add(item);
         jMenu.addSeparator();
         item.addActionListener(this);
-        item = new JMenuItem("Anew");
+        item = new JMenuItem("New Game");
         jMenu.add(item);
         item.addActionListener(this);
         jMenuBar.add(jMenu);
