@@ -10,11 +10,11 @@ public class Menu extends JFrame implements ActionListener {
     public Menu(){
         jMenuBar = new JMenuBar();
         jMenu = new JMenu("Menu");
-        JMenuItem item = new JMenuItem("Sart");
+        JMenuItem item = new JMenuItem("Start");
         jMenu.add(item);
         jMenu.addSeparator();
         item.addActionListener(this);
-        item = new JMenuItem("Psuse");
+        item = new JMenuItem("Pause");
         jMenu.add(item);
         jMenu.addSeparator();
         item.addActionListener(this);
@@ -25,7 +25,10 @@ public class Menu extends JFrame implements ActionListener {
     }
     @Override
     public void actionPerformed(ActionEvent e) {
-        System.out.println(e.getActionCommand());
+        //System.out.println(e.getActionCommand());
+        if (e.getActionCommand()=="Pause"){
+
+        }
     }
     public JMenuBar getjMenuBar() {
         return jMenuBar;
